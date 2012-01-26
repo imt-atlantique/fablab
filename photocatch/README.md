@@ -6,12 +6,13 @@ PhotoCatch est un projet qui permet d'automatiser la prise de photo grâce à un
 README
 ------
 Photocatch est composé de deux parties :
-* Un circuit électronique :
+
+ * Un circuit électronique :
     * 1 arduino Uno
     * 4 afficheurs 7 segments
     * 1 servo moteur
     * 1 capteur à ultra-son
-* Un programme de contrôle.
+ * Un programme de contrôle.
  
 AUTHORS
 -------
