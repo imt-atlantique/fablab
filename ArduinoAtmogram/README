@@ -1,0 +1,40 @@
+** Arduino Atmogram **
+
+
+* Description *
+
+Monitor and display temperature and humidity informations on a LCD screen and log it on a web server.
+
+Look at docs directory to look at preview.
+
+Arduino Uno with:
+  - DHT11 (temperature & humidity sensors);
+  - LCD 4884 screen;
+  - Ethernet shield;
+
+
+* Installation *
+
+Arduino:
+  "ArduinoAtmogram.ino":
+    - Define your sensor type : "#define DHTTYPE DHT11" or DHT22 if you use it and map the PIN;
+    - Set up "IP Arduino" and "IP web server" depending on your config;
+    - Add a gateway and a subnet if you don't post to a local server "Ethernet.begin(mac, ip, gw, sub)";
+
+  "librairies":
+    - Librairies that you need are in librairies directory copy it in Arduino app folder.
+
+Web server:
+  Set up:
+    - Copy content of "webserver" directory to the root of your web server;
+    - Be sure that "data.csv" is readable and writeable ('chmod 777 data.csv');
+
+
+* Enjoy *
+
+We know that our program is not perfect, but it is enough for us.
+
+Fork the project and push me your improvements.
+
+vjo - https://github.com/vjo/
+flissot - https://github.com/flissot
