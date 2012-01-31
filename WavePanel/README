@@ -1,0 +1,8 @@
+There are two programs in this project. 
+The first one is for an arduino Uno which will be the transmettor of a predefined text-message.
+The second one is the program for the receptor arduinowhich receives the message and draws it on a led-matrixc screen.
+
+XBee shields are used for the wireless communication.
+
+XBee and ht1632c libraries are necessary for these programs.
+
