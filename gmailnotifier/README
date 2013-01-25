@@ -1,0 +1,18 @@
+GmailNotifier
+=============
+
+Gmail Notifier in Arduino
+
+Déposez le gmail.php sur un serveur HTTP.
+Téléversez le gnotifier.ino sur une carte Arduino
+MyProject is an open-source project which offers ...
+
+For more information, see the website at: http://mywebsite.my
+
+INSTALLATION
+Detailed instructions are in docs/
+
+CREDITS
+MyProject is an open source project, supported by many.
+
+The MyProject team is composed of ...
